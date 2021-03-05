@@ -8,6 +8,6 @@ public class Greetings {
 
 	@GetMapping(path="/saludo")
 	public String saludo() {
-		return "Hola mundo Jonathan Amaya.";
+		return "Este es un mensaje de prueba";
 	}
 }
