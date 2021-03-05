@@ -10,6 +10,6 @@ public class GreetingsTest {
 
 	@Test
 	void saludoTest() {
-		assertEquals("Hola mundo CI-CD..", new Greetings().saludo());
+		assertEquals("Hola mundo Jonathan Amaya.", new Greetings().saludo());
 	}
 }
